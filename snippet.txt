@@ -1,0 +1,26 @@
+<model-viewer bounds="tight" enable-pan src="Apartment 2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="pillars_1k.hdr" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.3259215468232666m 0.03517569075208993m 0.8203686642972405m" data-normal="0m -0.07763991328142765m -0.9969814661595532m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Main Door</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.4855573926018725m -0.06877183614498472m 0.39137733914155337m" data-normal="-0.015213803870399386m 0.20885358171575608m -0.9778285747390966m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Couch</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.3288843657306758m -0.022027839404202165m -0.6138498062537954m" data-normal="0.07458925490243026m 0.031379705245057406m 0.9967205010191341m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Master Bedroom Door</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.4484751128499167m 0.037847579760907024m -0.4634296331720055m" data-normal="0.9969814424579979m -0.07764021758333954m 0.0000028251824003955836m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Way to balcony</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-0.8873083329290994m -0.007006884086877108m -0.043784436544116456m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Kitchen</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="-0.24714368787932095m 0.021899400811818737m -0.48109286853843153m" data-normal="-0.9980322144888971m 0.06270326022136488m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Guest Bedroom Door</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="0.4966307658260951m -0.05573297501493534m -0.3572920858860016m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">TV</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
